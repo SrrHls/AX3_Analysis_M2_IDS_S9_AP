@@ -1,8 +1,33 @@
-# README
-This work propose a method to extract from acceleration data, recorded during walking and running at different speeds, the burned energy estimated on MET based on the bibliography element.
+# Energy Expenditure Estimation Using Acceleration Data
 
-We used 6 differents speeds for our experiment. After regular preprocessing and based on this experiment we find out to extrapolate (based on a linear regression process) the burning energy in MET. We can now, knowing informations about the subjet, define burning calories during an exercise.
-Our model provide great results for walking at a speed higer than 4 kilometers per hour, many things can explain this result : 
-  ### Not enough data for the low walking speed
-  ### When walking the swinging arms is different than running, it can causes miss calculation by the model
-  ### Not enough subjets, we built this method on only one subject
+## Project Overview
+This research proposes a method to estimate energy expenditure during physical activities by analyzing acceleration data collected from the Axivity AX3 bracelet. Our study focuses on extracting burned energy measurements in Metabolic Equivalent of Task (MET) units during walking and running at different speeds.
+Research Methodology
+
+Conducted experiments using 6 different walking and running speeds
+Utilized acceleration data from the Axivity AX3 sensor
+Applied preprocessing techniques
+Developed a linear regression model to extrapolate energy expenditure
+
+## Key Findings
+
+Successfully created a predictive model for caloric expenditure
+Achieved reliable results primarily for walking speeds above 4 kilometers per hour
+Identified potential limitations in the current model:
+
+Limited data for low walking speeds
+Variations in arm movement between walking and running
+Research based on data from a single subject
+
+
+
+## Technologies
+
+Python: Data analysis and model development
+Axivity AX3 Sensor: Acceleration data collection
+
+## Research Directions
+
+Expand dataset with more subjects
+Refine model accuracy for lower walking speeds
+Improve calculation methods for different movement patterns
